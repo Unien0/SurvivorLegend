@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8c8b606b526ea459c266e16587ae3f, type: 3}
+  m_Name: SoundDetailsList_SO
+  m_EditorClassIdentifier: 
+  soundDetailsList:
+  - "\u6CE8\u91CA": "\u65E0"
+    soundName: 0
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 0.8
+  - "\u6CE8\u91CA": "\u83DC\u5355\u97F3\u4E50"
+    soundName: 1
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u6E38\u620F\u97F3\u4E50"
+    soundName: 2
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u6C34\u6EF4\u58F0"
+    soundName: 6
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u6309\u94AE-\u786E\u5B9A"
+    soundName: 16
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u6309\u94AE-\u53D6\u6D88"
+    soundName: 17
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u6309\u94AE-\u65E0\u6548"
+    soundName: 0
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u653B\u51FB-\u6325\u5251"
+    soundName: 21
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u653B\u51FB-\u5C04\u7BAD"
+    soundName: 29
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u7816\u5757\u4E0A\u884C\u8D70"
+    soundName: 39
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u6728\u5934\u4E0A\u884C\u8D70"
+    soundName: 41
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u8349\u5730\u4E0A\u884C\u8D70"
+    soundName: 40
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u6C34\u4E0A\u884C\u8D70"
+    soundName: 42
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u56DE\u8840\u74F6"
+    soundName: 43
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u56DE\u6EE1-\u7BDD\u706B"
+    soundName: 44
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u5F3A\u5316\u529B\u91CF"
+    soundName: 45
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u5F3A\u5316\u9632\u5FA1"
+    soundName: 46
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u7ECF\u9A8C\u503C"
+    soundName: 47
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u5347\u7EA7"
+    soundName: 48
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u53D7\u4F24"
+    soundName: 51
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
+  - "\u6CE8\u91CA": "\u6B7B\u4EA1"
+    soundName: 54
+    soundClip: {fileID: 0}
+    soundPitchMin: 1
+    soundPitchMax: 1
+    soundVolume: 1
