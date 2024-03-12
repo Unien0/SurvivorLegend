@@ -20,4 +20,8 @@ public class PlayerData_SO : ScriptableObject
 
     [Header("玩家属性")]
     public int playerMaxHP;//最大血量
+    public int currentHP;
+    public float playerSpeed;
+    public float currentSpeed;
+
 }
