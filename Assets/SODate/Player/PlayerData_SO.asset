@@ -20,5 +20,5 @@ MonoBehaviour:
   playerMoney: 0
   playerMaxHP: 0
   currentHP: 0
-  playerSpeed: 3
-  currentSpeed: 3
+  playerSpeed: 7
+  currentSpeed: 7

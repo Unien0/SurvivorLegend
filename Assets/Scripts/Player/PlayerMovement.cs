@@ -7,13 +7,23 @@ public class PlayerMovement : MonoBehaviour
     public PlayerData_SO playerData;
     private Rigidbody2D rb;
     private Vector2 movement;
-    // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
     {
+        EventCenter.AddListener<Vector3>(EventTypeI.positionInitialization, PositionInitialization);
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    private void OnDestroy()
+    {
+        EventCenter.RemoveListener<Vector3>(EventTypeI.positionInitialization, PositionInitialization);
+    }
+
+    void Start()
+    {
+        
+    }
+
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -22,5 +32,9 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = movement.normalized * playerData.currentSpeed;
     }
 
+    void PositionInitialization(Vector3 pos)
+    {
+        this.transform.position = pos;
+    }
 
 }
