@@ -1,20 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9038749654078750370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f692f83df7c1b5468af64edd22287dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  From: {fileID: 2285645978542955954}
-  To: {fileID: 1052794032309899770}
-  RoomTemplates: []
 --- !u!114 &-6378263276503326515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Position: {x: 304, y: 272}
   Name: Spawn
-  IndividualRoomTemplates: []
+  IndividualRoomTemplates:
+  - {fileID: 4270300015933468504, guid: 69e044f2e78250c4ab188eef947e6539, type: 3}
   RoomTemplateSets: []
 --- !u!114 &-1219168757873248167
 MonoBehaviour:
@@ -92,7 +78,6 @@ MonoBehaviour:
   Connections:
   - {fileID: -4985884608295164328}
   - {fileID: -1219168757873248167}
-  - {fileID: -9038749654078750370}
   - {fileID: 6656564101792531543}
   CorridorIndividualRoomTemplates:
   - {fileID: 4528361446338804858, guid: 8eb7a212336ae22429d1fa73fb94ef52, type: 3}
@@ -108,11 +93,10 @@ MonoBehaviour:
   - {fileID: -4365854717274486518}
   - {fileID: 1052794032309899770}
   - {fileID: -6378263276503326515}
-  - {fileID: 2285645978542955954}
   - {fileID: 424321981323187614}
   EditorData:
-    PanOffset: {x: 0, y: 0}
-    Zoom: 1
+    PanOffset: {x: -115.239914, y: -144.89894}
+    Zoom: 1.6105101
   RoomType: Edgar.Unity.Room
   ConnectionType: Edgar.Unity.Connection
   IsDirected: 0
@@ -145,22 +129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 448, y: 272}
-  Name: Room
-  IndividualRoomTemplates: []
-  RoomTemplateSets: []
---- !u!114 &2285645978542955954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8074dc491ddc34f4e83332d9eae76980, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Position: {x: 448, y: 352}
   Name: Room
   IndividualRoomTemplates: []
   RoomTemplateSets: []
