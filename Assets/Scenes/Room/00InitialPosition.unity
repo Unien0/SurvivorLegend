@@ -71937,7 +71937,7 @@ MonoBehaviour:
     ThrowExceptionsImmediately: 0
   UseRandomSeed: 1
   RandomGeneratorSeed: 0
-  GenerateOnStart: 0
+  GenerateOnStart: 1
   ThrowExceptionsImmediately: 0
   DisableCustomPostProcessing: 0
 --- !u!4 &1187533289
