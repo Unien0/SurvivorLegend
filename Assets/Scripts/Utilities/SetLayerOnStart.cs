@@ -10,10 +10,21 @@ public class SetLayerOnStart : MonoBehaviour
     public string newLayerName = "Wall"; // 新的层级名称
     public bool isChange;
 
-    private void Update()
+    private void Awake()
+    {
+        EventCenter.AddListener(EventTypeI.DungeonGeneratorStart, DungeonGeneratorStart);
+    }
+
+    private void OnDestroy()
+    {
+        EventCenter.RemoveListener(EventTypeI.DungeonGeneratorStart, DungeonGeneratorStart);
+    }
+
+    private void DungeonGeneratorStart()
     {
         if (!isChange)
         {
+            Debug.Log("运行指令");
             // 根据名称查找Generated Level对象
             GameObject generatedLevelObject = GameObject.Find(generatedLevelName);
 

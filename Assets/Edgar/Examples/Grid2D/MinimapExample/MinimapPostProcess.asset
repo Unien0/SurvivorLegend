@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7a477b89e84b8b40aecbed0f5760a37, type: 3}
   m_Name: MinimapPostProcess
   m_EditorClassIdentifier: 
-  Layer: 12
+  Layer: 20
   UseMultipleTilemaps: 1
   Layers:
   - Tilemaps: Walls
