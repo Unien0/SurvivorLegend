@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6417706325926888257}
   - component: {fileID: 1141693793314046238}
   - component: {fileID: 482939634}
+  - component: {fileID: 7121302058561006004}
   m_Layer: 7
   m_Name: "\u5DE8\u9F20"
   m_TagString: Enemy
@@ -233,3 +234,16 @@ MonoBehaviour:
   bezierTangentLength: 0.4
   offset: 0.2
   factor: 0.1
+--- !u!114 &7121302058561006004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5809818686104208686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 958e07c21d2b4ae418c144dd0b4a9a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rolloverImage: 1
