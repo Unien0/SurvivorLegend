@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Miner
   - Zombie
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
-  - 
+  - Enemy
+  - EnemyDead
   - 
   - Wall
   - 
