@@ -10,7 +10,7 @@ using UnityEngine;
         // Implement the logic here
         EventCenter.Broadcast(EventTypeI.DungeonGeneratorStart);
         Debug.Log("发出指令");
-
+        AstarPath.active.Scan();
     }
   }
 

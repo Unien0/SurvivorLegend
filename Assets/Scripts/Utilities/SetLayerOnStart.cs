@@ -42,6 +42,9 @@ public class SetLayerOnStart : MonoBehaviour
                     {
                         // 将Walls子物体的层级设置为新的层级
                         wallsTransform.gameObject.layer = LayerMask.NameToLayer(newLayerName);
+                        var graphToScan = AstarPath.active.data.gridGraph;
+                        AstarPath.active.Scan(graphToScan);
+                        //AstarPath.active.Scan();
                     }
                     else
                     {
