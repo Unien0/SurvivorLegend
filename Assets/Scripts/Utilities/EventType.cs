@@ -6,7 +6,7 @@ public enum EventTypeI
     Initialization,//初始化
     positionInitialization,//坐标初始化
     DungeonGeneratorStart,
-
+    AfterWall,
 
 
 }

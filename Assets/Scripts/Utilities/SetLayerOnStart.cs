@@ -42,9 +42,8 @@ public class SetLayerOnStart : MonoBehaviour
                     {
                         // 将Walls子物体的层级设置为新的层级
                         wallsTransform.gameObject.layer = LayerMask.NameToLayer(newLayerName);
-                        var graphToScan = AstarPath.active.data.gridGraph;
-                        AstarPath.active.Scan(graphToScan);
-                        //AstarPath.active.Scan();
+                        StartCoroutine(DelayedBroadcast());
+                        //EventCenter.Broadcast(EventTypeI.AfterWall);
                     }
                     else
                     {
@@ -63,5 +62,15 @@ public class SetLayerOnStart : MonoBehaviour
         }
         isChange = true;
     }
-        
+
+    /// <summary>
+    /// 协程制造时差，让地图导航图标在Wall绑定后更新
+    /// </summary>
+    /// <returns></returns>
+    IEnumerator DelayedBroadcast()
+    {
+        yield return new WaitForSeconds(0.1f);
+        EventCenter.Broadcast(EventTypeI.AfterWall);
+    }
+
 }
