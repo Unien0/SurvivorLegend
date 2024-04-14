@@ -48,6 +48,9 @@ public class EnemyDetailsList
     [Header("敌人闪避率")]
     public int enemyDodgeChance;
     [FoldoutGroup("$enemyName", expanded: true)]
+    [Header("敌人攻击频率")]
+    public int enemyAttackFrequency;
+    [FoldoutGroup("$enemyName", expanded: true)]
     [Header("敌人进攻模式")]
     public EnemyAttackMode enemyAttackMode;
 }

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: EnemyDataList_SO
   m_EditorClassIdentifier: 
   EnemyDetailsList:
-  - enemyID: 
-    enemyName: 
+  - enemyID: 001
+    enemyName: "\u5DE8\u9F20"
     enemyOnWorldSprite: {fileID: 0}
-    enemyType: 0
+    enemyType: 2
     enemyHP: 0
     enemyMoveSpeed: 0
     enemyDamage: 0
