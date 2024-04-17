@@ -156,7 +156,7 @@ public class EnemyStats : MonoBehaviour
     }
 
 
-    public void TakeDamage(int dmg)
+    public void EnemyTakeDamage(int dmg)
     {
         currentHP -= dmg;
 

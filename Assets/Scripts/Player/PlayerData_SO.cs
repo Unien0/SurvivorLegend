@@ -71,6 +71,9 @@ public class PlayerData_SO : ScriptableObject
     [FoldoutGroup("基础属性")]
     [Header("闪避率")]
     public float dodgeChance;//闪避率
+    [FoldoutGroup("基础属性")]
+    [Header("攻击速度")]
+    public float attackFrequency;//攻击速度
 
     [FoldoutGroup("五维面板")]
     [Header("力量")]

@@ -12,7 +12,7 @@ public class DamageCalculatorManager : Singleton<DamageCalculatorManager>
     //伤害 = 攻击力*（1-免伤率）
     //护甲类型：重甲50%	中甲100%	轻甲150%	无甲200%
 
-    public float CalculateDamage(float attackDamage, float defense, float fixedPenetration, float percentPenetration, ArmorType armorType)
+    public float CalculateDamage(int attackDamage, int defense, float fixedPenetration, float percentPenetration, ArmorType armorType)
     {
         //armorDamageReduction=减伤率      fixedPenetration = 固定穿透     percentPenetration = 百分比穿透
         float armorDamageReduction = GetArmorDamageReduction(defense, fixedPenetration, percentPenetration, armorType);
@@ -20,7 +20,7 @@ public class DamageCalculatorManager : Singleton<DamageCalculatorManager>
         return damageTaken;
     }
 
-    private float GetArmorDamageReduction(float defense, float fixedPenetration, float percentPenetration, ArmorType armorType)
+    private float GetArmorDamageReduction(int defense, float fixedPenetration, float percentPenetration, ArmorType armorType)
     {
         float penetration = (defense - fixedPenetration) * (1 - percentPenetration);
         float armorDamageReduction = penetration / (defense - fixedPenetration) * (1 - percentPenetration) + (defense * GetArmorModifier(armorType));
