@@ -17,6 +17,7 @@ public class EnemyStats : MonoBehaviour
     private int enemyDefensive;
     private int enemyMagicDamage;
     private int enemyMagicDefensive;
+    private ArmorType armorType;
     private int enemyPenetrationAbility;
     private int enemyDodgeChance;
     private int enemyAttackFrequency;//敌人攻速
@@ -24,10 +25,10 @@ public class EnemyStats : MonoBehaviour
     //当前数据
     private int currentHP;
     private float currentMoveSpeed;
-    private float currentDamage;
-    private float currentDefensive;
-    private float currentMagicDamage;
-    private float currentMagicDefensive;
+    private int currentDamage;
+    private int currentDefensive;
+    private int currentMagicDamage;
+    private int currentMagicDefensive;
     private float currentPenetrationAbility;
     private float currentDodgeChance;
     private float currentAttackFrequency;
@@ -71,6 +72,7 @@ public class EnemyStats : MonoBehaviour
                     enemyDefensive = enemyDetails.enemyDefensive;
                     enemyMagicDamage = enemyDetails.enemyMagicDamage;
                     enemyMagicDefensive = enemyDetails.enemyMagicDefensive;
+                    armorType = enemyDetails.armorType;
                     enemyPenetrationAbility = enemyDetails.enemyPenetrationAbility;
                     enemyDodgeChance = enemyDetails.enemyDodgeChance;
                     enemyAttackFrequency = enemyDetails.enemyAttackFrequency;
@@ -81,7 +83,7 @@ public class EnemyStats : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogWarning("j找不到相关ID");
+                    Debug.LogWarning("找不到相关ID");
                 }
             }
         }
@@ -153,11 +155,16 @@ public class EnemyStats : MonoBehaviour
         //添加算法，计算敌人对玩家的伤害
         //算法可以使用单例或者事件返回值来获取结果
         //对玩家造成伤害后结束事件  
+
+
     }
 
 
-    public void EnemyTakeDamage(int dmg)
+    public void EnemyTakeDamage(int damage, float fixedPenetration, float percentPenetration)
     {
+        //调用单例进行伤害计算
+        int dmg = (int)DamageCalculatorManager.Instance.CalculateDamage(damage, currentMagicDefensive, fixedPenetration, percentPenetration, armorType);
+
         currentHP -= dmg;
 
         if (currentHP <= 0)

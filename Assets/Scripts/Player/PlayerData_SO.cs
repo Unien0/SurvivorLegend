@@ -63,6 +63,9 @@ public class PlayerData_SO : ScriptableObject
     [Header("魔法抗性")]
     public int magicDefensive;//魔法抗性
     [FoldoutGroup("基础属性")]
+    [Header("护甲类型")]
+    public ArmorType armorType;
+    [FoldoutGroup("基础属性")]
     [Header("暴击率")]
     public float criticalHitRate;//暴击率
     [FoldoutGroup("基础属性")]

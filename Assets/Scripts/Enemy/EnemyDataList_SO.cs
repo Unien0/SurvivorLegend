@@ -42,6 +42,9 @@ public class EnemyDetailsList
     [Header("敌人魔力抗性")]
     public int enemyMagicDefensive;
     [FoldoutGroup("$enemyName", expanded: true)]
+    [Header("敌人护甲")]
+    public ArmorType armorType;
+    [FoldoutGroup("$enemyName", expanded: true)]
     [Header("敌人穿防能力")]
     public int enemyPenetrationAbility;
     [FoldoutGroup("$enemyName", expanded: true)]
