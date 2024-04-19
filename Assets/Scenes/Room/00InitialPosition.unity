@@ -92602,6 +92602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u5DE8\u9F20 1"
       objectReference: {fileID: 0}
+    - target: {fileID: 5809818686104208686, guid: 71808db7270ce3e4883c4c5cab5a52f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71808db7270ce3e4883c4c5cab5a52f6, type: 3}
 --- !u!114 &1624656933
