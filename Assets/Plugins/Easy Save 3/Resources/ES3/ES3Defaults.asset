@@ -38,12 +38,6 @@ MonoBehaviour:
     - Edgar.Unity.Examples
     - Fungus
     - FungusExamples
-    - goodcat.un-inventory.core
-    - goodcat.un-inventory.plugins.standard
-    - goodcat.un-inventory.standard
-    - sample.hero
-    - sample.trade
-    - samples-environment
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1
