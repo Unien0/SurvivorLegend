@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37a44df922c40df4fa80e23de1480e3f, type: 3}
-  m_Name: Uncategorized
+  m_Name: "\u94A5\u5319"
   m_EditorClassIdentifier: 
-  m_ID: 2373976082
+  m_ID: 2651397494
   m_ParentsData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemCategory,
       Opsive.UltimateInventorySystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
@@ -41,7 +41,7 @@ MonoBehaviour:
     m_UnityObjects: []
     m_Version: 3.2
   m_IsAbstract: 0
-  m_Color: {r: 0.9432212, g: 0.4557286, b: 0.83185923, a: 1}
+  m_Color: {r: 0.22153237, g: 0.48847252, b: 0.92983806, a: 1}
   m_EditorIcon: {fileID: 0}
   m_ItemCategoryAttributeCollection:
     m_AttributeCollectionData: []

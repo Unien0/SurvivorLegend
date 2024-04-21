@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37a44df922c40df4fa80e23de1480e3f, type: 3}
-  m_Name: Uncategorized
+  m_Name: "\u76FE\u724C"
   m_EditorClassIdentifier: 
-  m_ID: 2373976082
+  m_ID: 1857112357
   m_ParentsData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemCategory,
       Opsive.UltimateInventorySystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
@@ -26,10 +26,11 @@ MonoBehaviour:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemCategory,
       Opsive.UltimateInventorySystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
     m_ValueHashes: 
-    m_LongValueHashes: 4c1e4f8e62aa191aedcfa32778e3fda6
-    m_ValuePositions: 0000000004000000
-    m_Values: 0000000000000000
-    m_UnityObjects: []
+    m_LongValueHashes: 4c1e4f8e62aa191aedcfa32778e3fda65d5b81463bc45586
+    m_ValuePositions: 000000000400000008000000
+    m_Values: 010000000100000000000000
+    m_UnityObjects:
+    - {fileID: 11400000, guid: 0252139fff9cc954f9f0b9a683d7de39, type: 2}
     m_Version: 3.2
   m_ElementsData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemDefinition,
@@ -41,7 +42,7 @@ MonoBehaviour:
     m_UnityObjects: []
     m_Version: 3.2
   m_IsAbstract: 0
-  m_Color: {r: 0.9432212, g: 0.4557286, b: 0.83185923, a: 1}
+  m_Color: {r: 0.29143992, g: 0.29962733, b: 0.25003925, a: 1}
   m_EditorIcon: {fileID: 0}
   m_ItemCategoryAttributeCollection:
     m_AttributeCollectionData: []

@@ -10,26 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37a44df922c40df4fa80e23de1480e3f, type: 3}
-  m_Name: Uncategorized
+  m_Name: "\u8FDC\u7A0B\u6B66\u5668"
   m_EditorClassIdentifier: 
-  m_ID: 2373976082
+  m_ID: 759256610
   m_ParentsData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemCategory,
       Opsive.UltimateInventorySystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
     m_ValueHashes: 
-    m_LongValueHashes: 4c1e4f8e62aa191aedcfa32778e3fda6
-    m_ValuePositions: 0000000004000000
-    m_Values: 0000000000000000
-    m_UnityObjects: []
+    m_LongValueHashes: 4c1e4f8e62aa191aedcfa32778e3fda65d5b81463bc45586
+    m_ValuePositions: 000000000400000008000000
+    m_Values: 010000000100000000000000
+    m_UnityObjects:
+    - {fileID: 11400000, guid: aa778256e3661be4990fd54d26bbe2c1, type: 2}
     m_Version: 3.2
   m_ChildrenData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemCategory,
       Opsive.UltimateInventorySystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
     m_ValueHashes: 
-    m_LongValueHashes: 4c1e4f8e62aa191aedcfa32778e3fda6
-    m_ValuePositions: 0000000004000000
-    m_Values: 0000000000000000
-    m_UnityObjects: []
+    m_LongValueHashes: 4c1e4f8e62aa191aedcfa32778e3fda65d5b81463bc45586e85a81463bc45586
+    m_ValuePositions: 0000000004000000080000000c000000
+    m_Values: 02000000020000000000000001000000
+    m_UnityObjects:
+    - {fileID: 11400000, guid: d22865fe3cce4f544b9cb9b013b79213, type: 2}
+    - {fileID: 11400000, guid: 62b6fe726650c704b9310b286870fc3b, type: 2}
     m_Version: 3.2
   m_ElementsData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemDefinition,
@@ -41,7 +44,7 @@ MonoBehaviour:
     m_UnityObjects: []
     m_Version: 3.2
   m_IsAbstract: 0
-  m_Color: {r: 0.9432212, g: 0.4557286, b: 0.83185923, a: 1}
+  m_Color: {r: 0.1596042, g: 0.46161634, b: 0.08540548, a: 1}
   m_EditorIcon: {fileID: 0}
   m_ItemCategoryAttributeCollection:
     m_AttributeCollectionData: []

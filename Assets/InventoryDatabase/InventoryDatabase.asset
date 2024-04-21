@@ -14,7 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemCategories:
   - {fileID: 11400000, guid: 2c0b834e160a9464f825390eded84601, type: 2}
-  m_ItemDefinitions: []
+  - {fileID: 11400000, guid: 45ec142507e24c2448c592aa217ef853, type: 2}
+  - {fileID: 11400000, guid: 458c33cd856ed3d41a1caa00439fc2bb, type: 2}
+  - {fileID: 11400000, guid: ef80b423d241a7246a8096f3eea71546, type: 2}
+  - {fileID: 11400000, guid: 25cead5ba30a702489a21c07390657ea, type: 2}
+  - {fileID: 11400000, guid: 3b033f1af63d1124ba5fc6ef25c81249, type: 2}
+  - {fileID: 11400000, guid: aa778256e3661be4990fd54d26bbe2c1, type: 2}
+  - {fileID: 11400000, guid: 7ad60ef91df694945872e900f9c9fe3d, type: 2}
+  - {fileID: 11400000, guid: e34d2b376a9b30f40948adac0093c34c, type: 2}
+  - {fileID: 11400000, guid: 659aa43d502597147b750b46fca1d075, type: 2}
+  - {fileID: 11400000, guid: 1fd29b4778e8b8043b79bc9af59ed6f9, type: 2}
+  - {fileID: 11400000, guid: 01592cc638970034aa6817b815989cbd, type: 2}
+  - {fileID: 11400000, guid: 257505f060c3d5446a8ef12138f3732d, type: 2}
+  - {fileID: 11400000, guid: ba60f5b7666c0b043a17da0abce8ddcc, type: 2}
+  - {fileID: 11400000, guid: 74eb77e86ab3f8d4ca359f2f3bc06456, type: 2}
+  - {fileID: 11400000, guid: 5bfb5a8ead9d91948be19ad2572865ea, type: 2}
+  - {fileID: 11400000, guid: 5d6ec9b0547d5354e83c2f7968919c94, type: 2}
+  - {fileID: 11400000, guid: c374fbdafff276940bd7107fa86c0f51, type: 2}
+  - {fileID: 11400000, guid: d6e1e1d4d98da4f4c9e4bc2e82f6d496, type: 2}
+  - {fileID: 11400000, guid: 5ace65338d900a54b982051650432b14, type: 2}
+  - {fileID: 11400000, guid: bda384cc8dd418440b2ee64a60ca058d, type: 2}
+  - {fileID: 11400000, guid: 4d3a642d1bc10a94589112d3308d2ed4, type: 2}
+  - {fileID: 11400000, guid: 40021d79df67ff84ea5fb8e82bd73fe7, type: 2}
+  - {fileID: 11400000, guid: 2002d9e2d5aaf9c4baac387f7cca0645, type: 2}
+  - {fileID: 11400000, guid: deffd125e101cfd4e8400f48b2e311cb, type: 2}
+  - {fileID: 11400000, guid: 73d0c3882ade7c647b443994aa3572a1, type: 2}
+  - {fileID: 11400000, guid: 238987d5e44bcb04b82f0d9a683811f6, type: 2}
+  - {fileID: 11400000, guid: 4698eb3688c873c42a3752e2c2add41c, type: 2}
+  - {fileID: 11400000, guid: 7babc3c8b4051d243b230c8f710d904d, type: 2}
+  - {fileID: 11400000, guid: 25218ef37b2970846b251c934c11857d, type: 2}
+  - {fileID: 11400000, guid: f9a0cb5fc39eadd49a956cf8136525df, type: 2}
+  - {fileID: 11400000, guid: dd1e71dee17ff4f4897c45e15e032a3c, type: 2}
+  - {fileID: 11400000, guid: 018ccf0f60dfb114199b7803a38d63fb, type: 2}
+  - {fileID: 11400000, guid: 293d5813edea383439f479e98e63a836, type: 2}
+  - {fileID: 11400000, guid: 156b85dd2015d7f45968d55b94b643df, type: 2}
+  - {fileID: 11400000, guid: 0252139fff9cc954f9f0b9a683d7de39, type: 2}
+  - {fileID: 11400000, guid: d22865fe3cce4f544b9cb9b013b79213, type: 2}
+  - {fileID: 11400000, guid: 62b6fe726650c704b9310b286870fc3b, type: 2}
+  - {fileID: 11400000, guid: 5c49097ae5a88244fa46f77bdbb69316, type: 2}
+  - {fileID: 11400000, guid: 5d392ca1d68aba1459cdabbdf7e9f811, type: 2}
+  m_ItemDefinitions:
+  - {fileID: 11400000, guid: e40d2dedca3689c428c19eda31549328, type: 2}
   m_Currencies: []
   m_CraftingRecipes: []
   m_CraftingCategories:
