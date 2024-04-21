@@ -38,6 +38,9 @@ MonoBehaviour:
     - Edgar.Unity.Examples
     - Fungus
     - FungusExamples
+    - Opsive.Shared
+    - Opsive.UltimateInventorySystem
+    - Opsive.UltimateInventorySystem.Demo
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1
