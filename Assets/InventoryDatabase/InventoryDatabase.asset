@@ -53,9 +53,26 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 62b6fe726650c704b9310b286870fc3b, type: 2}
   - {fileID: 11400000, guid: 5c49097ae5a88244fa46f77bdbb69316, type: 2}
   - {fileID: 11400000, guid: 5d392ca1d68aba1459cdabbdf7e9f811, type: 2}
+  - {fileID: 11400000, guid: 879d47043d652fb42a7f8f6fe67966d8, type: 2}
+  - {fileID: 11400000, guid: e9b49fbbc9def5f4580d39ff843674b1, type: 2}
+  - {fileID: 11400000, guid: 8982035827139d842a2bdb503693d69f, type: 2}
+  - {fileID: 11400000, guid: 03ec3cd8b3f186646b4ded35f3a64ad4, type: 2}
+  - {fileID: 11400000, guid: ce4401744ff20e448b5e33e3dd2b9a92, type: 2}
+  - {fileID: 11400000, guid: 19bb05758a629a24aab956b5a272e8e3, type: 2}
+  - {fileID: 11400000, guid: 992b4c494043f964b829a122e1b2cb35, type: 2}
+  - {fileID: 11400000, guid: 192350d776654604192aaa46e059dd2b, type: 2}
+  - {fileID: 11400000, guid: c244e0a8ae3d0644f849d621051960b6, type: 2}
+  - {fileID: 11400000, guid: c2da643740e02bb44be5a79b9725d347, type: 2}
+  - {fileID: 11400000, guid: 18ab9704da009bf41ba8f9408f13bc6e, type: 2}
+  - {fileID: 11400000, guid: 3170792493df2b84c86c9cf84ab90a4f, type: 2}
+  - {fileID: 11400000, guid: 1f55215c2c8b13949af358dc9a9f278a, type: 2}
+  - {fileID: 11400000, guid: a728152b9bd0fe749a5596a9697905af, type: 2}
   m_ItemDefinitions:
   - {fileID: 11400000, guid: e40d2dedca3689c428c19eda31549328, type: 2}
-  m_Currencies: []
+  m_Currencies:
+  - {fileID: 11400000, guid: 863f7e00f3c7930489556b782299888e, type: 2}
+  - {fileID: 11400000, guid: 36c3347f72e3d774bb3613acf8f6ea90, type: 2}
+  - {fileID: 11400000, guid: ef69b7cc2f4a7c24aa6b825d73d1e286, type: 2}
   m_CraftingRecipes: []
   m_CraftingCategories:
   - {fileID: 11400000, guid: 8f372d5862b14f24291c3e748da4b406, type: 2}

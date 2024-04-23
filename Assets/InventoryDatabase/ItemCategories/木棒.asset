@@ -45,7 +45,15 @@ MonoBehaviour:
   m_Color: {r: 0.32405344, g: 0.0053582196, b: 0.4717825, a: 1}
   m_EditorIcon: {fileID: 0}
   m_ItemCategoryAttributeCollection:
-    m_AttributeCollectionData: []
+    m_AttributeCollectionData:
+    - m_ObjectType: Opsive.UltimateInventorySystem.Core.AttributeSystem.Attribute`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      m_ValueHashes: 
+      m_LongValueHashes: 0d00eb254f8d1b295b713f72e636d894086efd392442dff734ebab2aec72d130f446621b49ba2a58a8823c4a519fa651424b280f5394b559861dc27bf4117a0e
+      m_ValuePositions: 00000000090000000a0000000a0000000e0000000e0000001200000016000000
+      m_Values: 41747472696275746501000000006cc8eadb0000000000000000
+      m_UnityObjects: []
+      m_Version: 3.2
   m_RequiredItemDefinitionAttributes:
     m_AttributeCollectionData: []
   m_RequiredItemAttributes:
