@@ -24,10 +24,10 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 8982035827139d842a2bdb503693d69f, type: 2}
     - {fileID: 11400000, guid: c244e0a8ae3d0644f849d621051960b6, type: 2}
     - {fileID: 11400000, guid: 192350d776654604192aaa46e059dd2b, type: 2}
-    - {fileID: 11400000, guid: c2da643740e02bb44be5a79b9725d347, type: 2}
     - {fileID: 11400000, guid: e9b49fbbc9def5f4580d39ff843674b1, type: 2}
     - {fileID: 11400000, guid: 992b4c494043f964b829a122e1b2cb35, type: 2}
     - {fileID: 11400000, guid: 879d47043d652fb42a7f8f6fe67966d8, type: 2}
+    - {fileID: 11400000, guid: 19bb05758a629a24aab956b5a272e8e3, type: 2}
     m_Version: 3.2
   m_ChildrenData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemCategory,
